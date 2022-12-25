@@ -459,7 +459,7 @@ img {
 .pop-button-a:hover {
     background: #fff;
 } */
-.pop-button-ab{
+.pop-button-ab {
     width: 100%;
     height: 668px;
     background-image: url(/image/ome.webp);
@@ -467,7 +467,8 @@ img {
     background-position: center center;
     position: relative;
 }
-.customer-custom{
+
+.customer-custom {
     width: 100px;
     height: 100px;
     position: absolute;
@@ -478,18 +479,30 @@ img {
     border-radius: 50%;
     text-align: center;
 }
-.customer-custom:hover{
+
+.customer-custom:hover {
     background-color: #fff;
 }
-.customer-custom::after{
+
+.customer-custom::after {
     content: "";
     position: absolute;
     top: -50%;
-    /* background: transparent; */
     left: -50%;
-    background: #0000;
+    background: transparent;
     border: 100px solid rgba(229, 191, 74, 0.2);
+    border-radius: 50%;
+
 }
+
+.customer-custom i {
+    font-size: 28px;
+    position: absolute;
+    top: 34%;
+    background: transparent;
+    left: 42px;
+}
+
 /* other section of introduction */
 
 .advice-h2 {
