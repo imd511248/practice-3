@@ -342,8 +342,8 @@ img {
 }
 
 .zoom1 {
-    width: 408px !important;
-    height: 327.16px !important;
+    /* width: 408px !important;
+    height: 327.16px !important; */
     overflow: hidden;
     position: relative;
 }
@@ -387,7 +387,7 @@ img {
 }
 
 /* bhjgssdcjhvsskcgsd hcgsy8sdgsjdscgt */
-.background-image {
+/* .background-image {
     width: 100%;
     height: 668px;
     background-image: url(/image/ome.webp);
@@ -403,7 +403,7 @@ img {
     border: 100px solid rgba(229, 191, 74, 0.2);
     content: "";
     border-radius: 50%;
-    left: 42%;
+    left: 50%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 0;
@@ -438,7 +438,7 @@ img {
     content: "";
     position: absolute;
     top: -2px;
-    left: -2px;
+    left: -3px;
     bottom: -2px;
     right: -2px;
     border-radius: inherit;
@@ -458,8 +458,38 @@ img {
 
 .pop-button-a:hover {
     background: #fff;
+} */
+.pop-button-ab{
+    width: 100%;
+    height: 668px;
+    background-image: url(/image/ome.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
 }
-
+.customer-custom{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 45%;
+    cursor: pointer;
+    top: 42%;
+    background: #E5BF4A;
+    border-radius: 50%;
+    text-align: center;
+}
+.customer-custom:hover{
+    background-color: #fff;
+}
+.customer-custom::after{
+    content: "";
+    position: absolute;
+    top: -50%;
+    /* background: transparent; */
+    left: -50%;
+    background: #0000;
+    border: 100px solid rgba(229, 191, 74, 0.2);
+}
 /* other section of introduction */
 
 .advice-h2 {
@@ -989,8 +1019,12 @@ img {
     }
 
     .zoom1 {
-        width: 271px !important;
-        height: 217.5px !important;
+        /* width: 271px !important;
+        height: 217.5px !important; */
+    }
+
+    .image-cap {
+        width: 100%;
     }
 
     .background-image {
@@ -1096,23 +1130,29 @@ img {
     .icon-area {
         width: 70%;
     }
-    .footer-mid{
+
+    .footer-mid {
         width: 100%;
     }
-    .footer-right{
+
+    .footer-right {
         width: 100%;
     }
-    .middle-img{
+
+    .middle-img {
         width: 100%;
     }
-    .comment{
+
+    .comment {
         width: 100%;
     }
-    .comment p{
+
+    .comment p {
         width: 100%;
         text-align: center;
     }
-    .middle-img ul li a{
+
+    .middle-img ul li a {
         text-decoration: underline;
     }
 
