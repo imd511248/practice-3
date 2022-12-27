@@ -116,7 +116,9 @@ img {
 .nav-list li {
     list-style: none;
 }
-
+.nav-list li.active a{
+    color: #E5BF4A;
+}
 .nav-list li a {
     text-decoration: none;
     margin-right: 45px;
@@ -1088,8 +1090,6 @@ padding: 13px 30px;
     }
 
     .pic {
-        /* width: 100% !important;
-        height: 100% !important; */
         margin-bottom: 25px;
     }
 
@@ -1104,7 +1104,7 @@ padding: 13px 30px;
     }
 
     .nav-list {
-        display: none;
+        /* display: none; */
     }
 
     .banner {
